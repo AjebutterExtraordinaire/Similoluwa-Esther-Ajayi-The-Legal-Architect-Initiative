@@ -1,506 +1,819 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Similoluwa Esther Ajayi | The Legal Architect</title>
-    
-  <link rel="icon" type="image/png" href="https://drive.google.com/thumbnail?id=1nuJ8xuejohzVU00FBkd5sJHUx-twLgt-&sz=w32">
-    
-    <meta name="description" content="Official platform of Similoluwa Esther Ajayi, The Legal Architect. System design, strategic lawyering, and high-performance frameworks for the next generation.">
-    <meta name="keywords" content="Similoluwa Esther Ajayi, Legal Architect, Law Systems, Legal Strategy Nigeria, The Initiative 2026">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://ajebutterextraordinaire.github.io/Similoluwa-Ajayi-The-Legal-Architect-Iniative/">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --gold: #c5a059;
-            --dark: #0f172a;
-            --cream: #fcfcfb;
-            --stone-950: #0c0a09;
-        }
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: var(--cream);
-            color: var(--dark);
-            scroll-behavior: smooth;
-        }
-        .serif { font-family: 'Playfair Display', serif; }
-        
-        .nav-glass {
-            background: rgba(252, 252, 251, 0.9);
-            backdrop-filter: blur(12px);
-            border-bottom: 1px solid rgba(0,0,0,0.05);
-        }
+<title>The Legal Architect &mdash; Similoluwa Esther Ajayi</title>
 
-        .section-padding { padding: 100px 0; }
-        
-        .profile-frame {
-            border: 1px solid var(--gold);
-            padding: 8px;
-            background: white;
-            box-shadow: 0 30px 60px -12px rgba(0,0,0,0.15);
-        }
+<meta name="description" content="Law as infrastructure, not just enforcement. The working notes, projects and open questions of Similoluwa Esther Ajayi on legal systems, institutional design and access.">
+<meta name="author" content="Similoluwa Esther Ajayi">
+<meta name="robots" content="index, follow">
 
-        .btn-gold {
-            background: var(--dark);
-            color: white;
-            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-        .btn-gold:hover {
-            background: var(--gold);
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(197, 160, 89, 0.2);
-        }
+<!-- Typo fixed: Initiative, with the t. -->
+<link rel="canonical" href="https://ajebutterextraordinaire.github.io/Similoluwa-Ajayi-The-Legal-Architect-Initiative/">
 
-        .wing-card {
-            background: white;
-            border: 1px solid #f1f5f9;
-            transition: all 0.5s ease;
-        }
-        .wing-card:hover {
-            border-color: var(--gold);
-            transform: translateY(-8px);
-        }
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Legal Architect &mdash; Similoluwa Esther Ajayi">
+<meta property="og:description" content="Law as infrastructure, not just enforcement.">
+<meta property="og:url" content="https://ajebutterextraordinaire.github.io/Similoluwa-Ajayi-The-Legal-Architect-Initiative/">
+<meta property="og:image" content="https://lh3.googleusercontent.com/d/1PFEa0Dnf7VmDada-SI-hPrkvOK3JQQ6u">
+<meta name="twitter:card" content="summary_large_image">
 
-        .fade-in { animation: fadeIn 1.2s ease-out; }
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    </style>
+<link rel="icon" type="image/png" href="https://drive.google.com/thumbnail?id=1nuJ8xuejohzVU00FBkd5sJHUx-twLgt-&amp;sz=w32">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --gold:#9A7B40;
+    --ink:#14181F;
+    --cream:#FCFCFB;
+    --line:#E7E4DD;
+    --muted:#5E6470;
+  }
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;
+    background:var(--cream);
+    color:var(--ink);
+    font-family:'Inter',system-ui,sans-serif;
+    line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+  }
+  .serif{font-family:'Playfair Display',Georgia,serif}
+  h1,h2,h3,h4{font-family:'Playfair Display',Georgia,serif}
+  ::selection{background:#14181F;color:#fff}
+
+  .gold{color:var(--gold)}
+  .hairline{border-color:var(--line)}
+
+  .eyebrow{
+    font-size:10px;
+    letter-spacing:.32em;
+    text-transform:uppercase;
+    font-weight:600;
+  }
+
+  .nav-glass{
+    background:rgba(252,252,251,.92);
+    backdrop-filter:blur(12px);
+    border-bottom:1px solid var(--line);
+  }
+
+  a:focus-visible,button:focus-visible,input:focus-visible,
+  select:focus-visible,textarea:focus-visible{
+    outline:2px solid var(--gold);
+    outline-offset:3px;
+    border-radius:3px;
+  }
+
+  .skip{
+    position:absolute;left:-9999px;top:0;z-index:100;
+    background:#14181F;color:#fff;padding:12px 20px;font-size:12px;
+  }
+  .skip:focus{left:0}
+
+  .numeral{
+    font-family:'Playfair Display',Georgia,serif;
+    font-size:11px;
+    letter-spacing:.1em;
+    color:var(--gold);
+    border:1px solid var(--line);
+    border-radius:999px;
+    width:34px;height:34px;
+    display:flex;align-items:center;justify-content:center;
+    flex:none;
+  }
+
+  /* ---- honest status labels ---- */
+  .status{
+    display:inline-block;
+    font-size:9px;
+    letter-spacing:.18em;
+    text-transform:uppercase;
+    font-weight:600;
+    padding:3px 10px;
+    border:1px solid currentColor;
+    border-radius:999px;
+    white-space:nowrap;
+  }
+  .st-design{color:#8A6A2F}
+  .st-build{color:#3F6B86}
+  .st-running{color:#4A6B4E}
+  .st-none{color:#8A8A8A}
+
+  .panel{
+    background:#fff;
+    border:1px solid var(--line);
+    transition:border-color .35s ease, box-shadow .35s ease;
+  }
+  .panel:hover{border-color:#D2C8B2;box-shadow:0 14px 34px rgba(0,0,0,.045)}
+
+  .ledger dt{
+    font-size:9px;letter-spacing:.2em;text-transform:uppercase;
+    font-weight:600;color:var(--muted);
+  }
+  .ledger dd{margin:4px 0 0;font-size:13.5px;line-height:1.65;color:#3C4250}
+
+  .btn-dark{
+    background:var(--ink);color:#fff;
+    transition:background .35s ease, transform .35s ease;
+  }
+  .btn-dark:hover{background:var(--gold);transform:translateY(-2px)}
+
+  .fade-in{animation:fadeIn 1s ease-out both}
+  @keyframes fadeIn{
+    from{opacity:0;transform:translateY(16px)}
+    to{opacity:1;transform:translateY(0)}
+  }
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto}
+    *,*::before,*::after{animation:none!important;transition:none!important}
+  }
+
+  .mobile-menu{display:none}
+  .mobile-menu.open{display:block}
+  @media (max-width:1024px){
+    .desktop-nav{display:none}
+    .mobile-button{display:block}
+  }
+  @media (min-width:1025px){
+    .mobile-button{display:none}
+  }
+</style>
 </head>
+
 <body class="antialiased">
 
-    <nav class="fixed top-0 w-full z-50 nav-glass">
-        <div class="max-w-7xl mx-auto px-8 h-24 flex items-center justify-between">
-            <a href="#home" class="serif font-bold text-2xl tracking-tighter">S.E.A.</a>
-            <div class="hidden lg:flex gap-12 text-[10px] font-bold uppercase tracking-[0.3em] text-stone-400">
-                <a href="#home" class="hover:text-amber-600 transition-colors">Front Gate</a>
-                <a href="#about" class="hover:text-amber-600 transition-colors">The Architect</a>
-                <a href="#lab" class="hover:text-amber-600 transition-colors">Systems Lab</a>
-                <a href="#vault" class="hover:text-amber-600 transition-colors">The Vault</a>
-                <a href="#initiatives" class="hover:text-amber-600 transition-colors">Institutions</a>
-                <a href="#timeline" class="hover:text-amber-600 transition-colors">Timeline</a>
-                <a href="#advisory" class="hover:text-amber-600 transition-colors">Advisory</a>
-            </div>
-            <a href="#advisory" class="hidden md:block border border-stone-200 px-6 py-2 rounded-full text-[10px] font-bold uppercase tracking-widest hover:bg-stone-50 transition-all">
-                Request Access
-            </a>
-        </div>
-    </nav>
+<a class="skip" href="#main">Skip to content</a>
 
-    <section id="home" class="min-h-screen flex flex-col items-center justify-center text-center px-6 pt-20 fade-in">
-        <div class="mb-12 relative">
-            <img src="https://lh3.googleusercontent.com/d/1PFEa0Dnf7VmDada-SI-hPrkvOK3JQQ6u" 
-                 alt="Similoluwa Esther Ajayi" 
-                 class="w-44 h-44 rounded-full object-cover profile-frame mx-auto grayscale hover:grayscale-0 transition-all duration-1000">
+<!-- ==========================================================
+     NAVIGATION
+========================================================== -->
+<header class="fixed top-0 w-full z-50 nav-glass">
+  <nav class="max-w-7xl mx-auto px-6 md:px-8 h-20 flex items-center justify-between" aria-label="Primary">
+
+    <a href="#main" class="serif text-xl tracking-tight">S.E.A.</a>
+
+    <div class="desktop-nav flex gap-9 text-[10px] font-semibold uppercase tracking-[.26em] text-stone-400">
+      <a href="#thesis" class="hover:text-[var(--gold)] transition-colors">The Thesis</a>
+      <a href="#projects" class="hover:text-[var(--gold)] transition-colors">Projects</a>
+      <a href="#questions" class="hover:text-[var(--gold)] transition-colors">Open Questions</a>
+      <a href="#writing" class="hover:text-[var(--gold)] transition-colors">Writing</a>
+      <a href="#log" class="hover:text-[var(--gold)] transition-colors">Build Log</a>
+    </div>
+
+    <div class="flex items-center gap-3">
+      <a href="https://ajebutterextraordinaire.github.io/Similoluwa-Esther-Ajayi/"
+         target="_blank" rel="noopener"
+         class="hidden md:block text-[10px] font-semibold uppercase tracking-[.2em] text-stone-400 hover:text-[var(--gold)] transition-colors">
+        The Record
+      </a>
+      <a href="#contact"
+         class="hidden md:block border hairline px-5 py-2 rounded-full text-[10px] font-semibold uppercase tracking-[.2em] hover:bg-stone-50 transition-all">
+        Get in touch
+      </a>
+      <button onclick="toggleMenu()" aria-expanded="false" aria-controls="mobileMenu"
+              class="mobile-button text-[10px] font-semibold uppercase tracking-[.2em] text-stone-400">Menu</button>
+    </div>
+  </nav>
+
+  <div id="mobileMenu" class="mobile-menu border-t hairline bg-[#FCFCFB]">
+    <div class="px-6 py-6 flex flex-col gap-5 text-[11px] font-semibold uppercase tracking-[.2em] text-stone-500">
+      <a href="#thesis" onclick="toggleMenu()">The Thesis</a>
+      <a href="#projects" onclick="toggleMenu()">Projects</a>
+      <a href="#questions" onclick="toggleMenu()">Open Questions</a>
+      <a href="#writing" onclick="toggleMenu()">Writing</a>
+      <a href="#log" onclick="toggleMenu()">Build Log</a>
+      <a href="https://ajebutterextraordinaire.github.io/Similoluwa-Esther-Ajayi/" target="_blank" rel="noopener">The Record</a>
+      <a href="#contact" onclick="toggleMenu()">Get in touch</a>
+    </div>
+  </div>
+</header>
+
+
+<main id="main">
+
+<!-- ==========================================================
+     HERO  &mdash;  no metrics. The sentence does the work.
+========================================================== -->
+<section class="min-h-[88vh] flex flex-col items-center justify-center text-center px-6 pt-28 pb-20 fade-in">
+
+  <img src="https://lh3.googleusercontent.com/d/1PFEa0Dnf7VmDada-SI-hPrkvOK3JQQ6u"
+       alt="Portrait of Similoluwa Esther Ajayi" loading="eager"
+       class="w-28 h-28 rounded-full object-cover grayscale mb-10 border hairline p-1 bg-white">
+
+  <p class="eyebrow text-stone-400 mb-6">The Legal Architect</p>
+
+  <h1 class="serif text-4xl md:text-6xl lg:text-7xl leading-[1.05] max-w-4xl">
+    Law as infrastructure,<br class="hidden sm:block"> not just enforcement.
+  </h1>
+
+  <p class="mt-9 max-w-2xl text-lg md:text-xl text-stone-500 leading-relaxed font-light">
+    I am interested in the systems behind legal outcomes &mdash; institutions,
+    contracts, technology, governance and the architecture through which law
+    either creates durable value or fails to.
+  </p>
+
+  <p class="mt-6 max-w-xl text-sm text-stone-400 leading-relaxed">
+    This is where I think out loud and build. The record of what I have actually
+    done sits on
+    <a href="https://ajebutterextraordinaire.github.io/Similoluwa-Esther-Ajayi/"
+       target="_blank" rel="noopener"
+       class="text-stone-600 underline decoration-[var(--gold)] underline-offset-4 hover:text-black">the professional record</a>.
+  </p>
+
+  <a href="#thesis" class="btn-dark mt-12 px-12 py-4 rounded-full font-semibold uppercase text-[10px] tracking-[.22em]">
+    Start with the thesis
+  </a>
+</section>
+
+
+<!-- ==========================================================
+     THE THESIS
+========================================================== -->
+<section id="thesis" class="border-y hairline bg-white">
+  <div class="max-w-5xl mx-auto px-6 md:px-8 py-20 md:py-28">
+
+    <p class="eyebrow gold mb-5">The Thesis</p>
+    <h2 class="serif text-3xl md:text-5xl mb-10">What I mean by architecture.</h2>
+
+    <div class="max-w-3xl space-y-6 text-lg text-stone-600 font-light leading-relaxed">
+      <p>
+        Most legal education teaches law as a body of rules and a set of remedies:
+        here is the obligation, here is what happens when it is broken. That is
+        true, and it is not the whole picture.
+      </p>
+      <p>
+        Law is also the thing that decides, before any dispute arises, who can
+        enter a market, who can raise capital, whose name goes on an invention,
+        and who even hears that an opportunity exists. Those are design questions.
+        Someone answered them &mdash; often badly, often by accident, often by
+        leaving the answer to whoever happened to be in the room.
+      </p>
+      <p class="text-ink font-normal">
+        That is the work I am interested in: the design, not only the remedy.
+      </p>
+    </div>
+
+    <div class="mt-16 grid md:grid-cols-3 gap-8">
+
+      <div class="flex gap-5">
+        <span class="numeral" aria-hidden="true">I</span>
+        <div>
+          <h3 class="text-base font-semibold mb-2">Structure beats effort</h3>
+          <p class="text-sm text-stone-500 leading-relaxed">
+            An institution that depends on one dedicated person is not an
+            institution; it is that person. The test of a system is what survives
+            their departure.
+          </p>
         </div>
-        <h1 class="serif text-6xl md:text-8xl font-bold tracking-tight text-slate-900 mb-6 italic">The Legal Architect</h1>
-        <p class="text-stone-400 text-sm font-bold tracking-[.5em] uppercase mb-10">Similoluwa Esther Ajayi</p>
-        <p class="max-w-2xl text-slate-500 text-xl leading-relaxed font-light mb-12">
-            Consolidating legal intelligence. Building systems for the next generation of high-authority leadership.
+      </div>
+
+      <div class="flex gap-5">
+        <span class="numeral" aria-hidden="true">II</span>
+        <div>
+          <h3 class="text-base font-semibold mb-2">Access is a design choice</h3>
+          <p class="text-sm text-stone-500 leading-relaxed">
+            Who hears about an opportunity is not a matter of luck. It is decided
+            by whatever channel exists, or fails to. Building the channel is legal
+            work as much as drafting is.
+          </p>
+        </div>
+      </div>
+
+      <div class="flex gap-5">
+        <span class="numeral" aria-hidden="true">III</span>
+        <div>
+          <h3 class="text-base font-semibold mb-2">Evidence before adjectives</h3>
+          <p class="text-sm text-stone-500 leading-relaxed">
+            Nothing on this site calls itself authoritative, elite or
+            high-performing. Each project below states what exists today and what
+            does not yet.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ==========================================================
+     WHY THIS EXISTS
+========================================================== -->
+<section class="bg-[#F7F6F3]">
+  <div class="max-w-5xl mx-auto px-6 md:px-8 py-20 md:py-24">
+    <div class="grid lg:grid-cols-2 gap-14 lg:gap-20 items-center">
+
+      <div>
+        <p class="eyebrow gold mb-5">Why this exists</p>
+        <h2 class="serif text-3xl md:text-4xl mb-7">A gap that is structural, not personal.</h2>
+
+        <div class="space-y-5 text-stone-600 font-light leading-relaxed">
+          <p>
+            Law students around me are academically serious and often better read
+            than they are given credit for. What many of them do not have is any
+            reliable route to the things that turn study into a career: which
+            firms take interns, when applications open, what a good memorandum
+            looks like, how a committee is supposed to hand over to the next one.
+          </p>
+          <p>
+            That information exists. It simply moves through private networks,
+            which means it reaches whoever is already connected. The gap is not a
+            talent problem. It is an infrastructure problem, and infrastructure
+            can be built.
+          </p>
+        </div>
+
+        <div class="mt-9 pt-6 border-t hairline">
+          <p class="eyebrow text-stone-400 mb-2">Based in</p>
+          <p class="serif text-lg">Ado-Ekiti and Lagos, Nigeria</p>
+        </div>
+      </div>
+
+      <div class="rounded-2xl overflow-hidden border-8 border-white shadow-xl">
+        <img src="https://lh3.googleusercontent.com/d/1PFEa0Dnf7VmDada-SI-hPrkvOK3JQQ6u"
+             alt="Similoluwa Esther Ajayi" loading="lazy"
+             class="w-full grayscale">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ==========================================================
+     PROJECTS
+     Every card carries the same two lines: what exists today,
+     and what it is not yet. That is the "show me" audit, made
+     part of the design instead of something a reader has to do.
+========================================================== -->
+<section id="projects" class="bg-white border-y hairline">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-20 md:py-28">
+
+    <div class="max-w-2xl mb-14">
+      <p class="eyebrow gold mb-5">Projects</p>
+      <h2 class="serif text-3xl md:text-5xl mb-6">What is actually being built.</h2>
+      <p class="text-stone-500 leading-relaxed">
+        Each one states its stage honestly. A project in design is described as a
+        project in design, and the live files are linked so the claim can be
+        checked rather than taken on trust.
+      </p>
+    </div>
+
+    <div class="grid lg:grid-cols-3 gap-6">
+
+      <!-- 1. DRAFTING PRECEDENTS -->
+      <article class="panel p-8 rounded-2xl flex flex-col">
+        <div class="flex justify-between items-start gap-4 mb-6">
+          <span class="numeral" aria-hidden="true">01</span>
+          <span class="status st-design">In design</span>
+        </div>
+
+        <h3 class="serif text-xl mb-3 leading-snug">Standard Drafting Precedents Project</h3>
+
+        <p class="text-sm text-stone-500 leading-relaxed mb-6">
+          A shared, structured collection of model drafting precedents across ten
+          practice areas, built so that several committees can contribute to the
+          same framework rather than each keeping its own private folder. The
+          longer aim is to make Northern and Southern procedural variations
+          visible side by side instead of discovered by accident.
         </p>
-        
-        <div class="flex gap-8 mb-16">
-            <div class="text-center">
-                <p class="text-3xl serif font-bold">428k+</p>
-                <p class="text-[9px] uppercase tracking-widest text-stone-400 font-bold mt-1">Strategic Reach</p>
-            </div>
-            <div class="w-[1px] h-12 bg-stone-200"></div>
-            <div class="text-center">
-                <p class="text-3xl serif font-bold">2.8k+</p>
-                <p class="text-[9px] uppercase tracking-widest text-stone-400 font-bold mt-1">Legal Minds Connected</p>
-            </div>
+
+        <div class="text-[10px] uppercase tracking-[.2em] text-stone-400 grid grid-cols-2 gap-x-3 gap-y-1.5 mb-7">
+          <span>Criminal</span><span>Tax</span>
+          <span>Civil litigation</span><span>Property</span>
+          <span>Commercial</span><span>Estates &amp; trusts</span>
+          <span>M&amp;A</span><span>Energy</span>
+          <span>Intellectual property</span><span>ADR</span>
         </div>
 
-        <a href="#about" class="btn-gold px-14 py-5 rounded-full font-bold uppercase text-[11px] tracking-[0.2em]">Enter The Hub</a>
-    </section>
+        <dl class="ledger border-t hairline pt-5 space-y-4 mb-7 flex-1">
+          <div>
+            <dt>What exists today</dt>
+            <dd>A ten-part master directory structure on shared drive space, set up for multi-committee collaboration.</dd>
+          </div>
+          <div>
+            <dt>What it is not yet</dt>
+            <dd>A registry. The precedents themselves are still being collected, and nothing here is nationally adopted or endorsed.</dd>
+          </div>
+        </dl>
 
-    <section id="about" class="section-padding bg-white border-y border-stone-100">
-        <div class="max-w-5xl mx-auto px-8">
-            <div class="grid lg:grid-cols-5 gap-16 items-start">
-                <div class="lg:col-span-2">
-                    <div class="rounded-2xl overflow-hidden shadow-2xl border border-stone-100">
-                        <img src="https://lh3.googleusercontent.com/d/1PFEa0Dnf7VmDada-SI-hPrkvOK3JQQ6u" class="w-full grayscale">
-                    </div>
-                    <div class="mt-8 p-6 bg-stone-50 border border-stone-100 rounded-xl">
-                        <p class="text-[9px] font-bold text-stone-400 uppercase tracking-widest mb-1">Current Focus</p>
-                        <p class="serif italic text-lg">System Design & Strategic Lawyering</p>
-                    </div>
-                </div>
-                
-                <div class="lg:col-span-3">
-                    <p class="text-amber-600 text-[10px] font-bold uppercase tracking-[0.4em] mb-4">Identity & Intent</p>
-                    <h2 class="serif text-5xl font-bold mb-10 italic">The Architect's Story.</h2>
-                    
-                    <div class="space-y-6 text-slate-600 text-lg leading-relaxed font-light">
-                        <p>I am <strong>Similoluwa Esther Ajayi</strong>, but within the landscape of the legal industry, I operate as <strong>The Legal Architect</strong>. I do not merely view law as a collection of statutes, but as a complex infrastructure that requires precise design.</p>
-                        
-                        <p>My work is centered on the belief that authority in the legal space is not inherited—it is architected. I specialize in bridging the gap between abstract legal theory and high-performance execution.</p>
+        <a href="https://drive.google.com/drive/folders/1nNwmnN7svu2yH0JNq_67YUNfpVFpRxT8?usp=sharing"
+           target="_blank" rel="noopener"
+           class="block text-center text-[10px] uppercase font-semibold tracking-[.2em] btn-dark py-3 rounded-xl">
+          Inspect the files
+        </a>
+      </article>
 
-                        <div class="py-8 border-y border-stone-100 my-10">
-                            <h3 class="serif text-2xl font-bold mb-6 italic text-slate-900">Mission & Audience</h3>
-                            <p class="mb-6 text-base italic">I build for the Next Generation of Legal Minds.</p>
-                            <ul class="space-y-4 text-base">
-                                <li class="flex items-start gap-4">
-                                    <span class="text-amber-600 font-bold">01. Precision:</span>
-                                    <span>Moving from "studying hard" to architecting permanent knowledge systems.</span>
-                                </li>
-                                <li class="flex items-start gap-4">
-                                    <span class="text-amber-600 font-bold">02. Authority:</span>
-                                    <span>Establishing a professional presence that commands immediate industry respect.</span>
-                                </li>
-                                <li class="flex items-start gap-4">
-                                    <span class="text-amber-600 font-bold">03. Sustainability:</span>
-                                    <span>Creating standard processes that prevent burnout while maintaining elite execution.</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <!-- 2. INSTITUTIONAL BLUEPRINT -->
+      <article class="panel p-8 rounded-2xl flex flex-col">
+        <div class="flex justify-between items-start gap-4 mb-6">
+          <span class="numeral" aria-hidden="true">02</span>
+          <span class="status st-build">In build</span>
         </div>
-    </section>
 
-    <section class="section-padding bg-stone-50/50">
-        <div class="max-w-5xl mx-auto px-8">
-            <div class="grid lg:grid-cols-2 gap-20 items-center">
-                <div class="relative">
-                    <div class="absolute -top-10 -left-10 text-[120px] serif text-stone-50 opacity-10 select-none">Core</div>
-                    <p class="text-amber-600 text-[10px] uppercase tracking-[0.5em] font-bold mb-4">The Driving Mandate</p>
-                    <h2 class="serif text-5xl font-bold mb-8 italic">Why This Exists.</h2>
-                    <p class="text-slate-600 text-lg leading-relaxed mb-6 font-light">
-                        The Legal Architect was born from a simple observation: many law students are exceptionally brilliant academically, but lack immediate access to the modern systems, structures, and professional positioning tools needed to thrive beyond the classroom.
-                    </p>
-                    <p class="text-slate-600 text-lg leading-relaxed mb-8 font-light">
-                        This initiative exists to permanently close that structural gap. By converting legal learning into active architecture, we build high-authority paths that allow talent to excel purely on merit, performance, and execution.
-                    </p>
-                    <div class="pt-6 border-t border-stone-200">
-                        <p class="text-[10px] uppercase font-bold tracking-widest text-stone-400">Current Location</p>
-                        <p class="serif italic text-xl mt-2">Lagos, Nigeria • Global Digital HQ</p>
-                    </div>
-                </div>
-                <div class="rounded-2xl overflow-hidden shadow-xl border-8 border-white">
-                    <img src="https://lh3.googleusercontent.com/d/1PFEa0Dnf7VmDada-SI-hPrkvOK3JQQ6u" class="w-full grayscale hover:grayscale-0 transition-all duration-700">
-                </div>
-            </div>
+        <h3 class="serif text-xl mb-3 leading-snug">Institutional Architecture Blueprint</h3>
+
+        <p class="text-sm text-stone-500 leading-relaxed mb-6">
+          An operating framework for how law student committees, chambers and
+          directorates divide work, document it and hand it over &mdash; so that a
+          new administration inherits a structure rather than a rumour of one.
+        </p>
+
+        <dl class="ledger border-t hairline pt-5 space-y-4 mb-7 flex-1">
+          <div>
+            <dt>What exists today</dt>
+            <dd>Organisational proposals drafted and submitted to establish independent operational directorates, with documentation and handover procedures attached.</dd>
+          </div>
+          <div>
+            <dt>What it is not yet</dt>
+            <dd>Fully adopted. Some elements are running at ABUAD and in LAWSAN South-West; the rest is proposal stage.</dd>
+          </div>
+        </dl>
+
+        <a href="https://drive.google.com/drive/folders/1VmXocGTtu5RPl6CQ7u4axs7O_bPh2FPW?usp=sharing"
+           target="_blank" rel="noopener"
+           class="block text-center text-[10px] uppercase font-semibold tracking-[.2em] btn-dark py-3 rounded-xl">
+          Inspect the files
+        </a>
+      </article>
+
+      <!-- 3. OPPORTUNITY ARCHITECTURE -->
+      <article class="panel p-8 rounded-2xl flex flex-col">
+        <div class="flex justify-between items-start gap-4 mb-6">
+          <span class="numeral" aria-hidden="true">03</span>
+          <span class="status st-running">Running</span>
         </div>
-    </section>
 
-    <section id="lab" class="section-padding bg-white">
-        <div class="max-w-6xl mx-auto px-8">
-            <div class="mb-12 text-center">
-                <p class="text-amber-600 text-[10px] uppercase tracking-[0.5em] font-bold mb-4">Wing I</p>
-                <h2 class="serif text-5xl font-bold italic">The Systems Lab & Public Works</h2>
-                <p class="text-stone-500 max-w-2xl mx-auto mt-4 text-sm">Translating strategic legal design into verified public frameworks and active infrastructure.</p>
-            </div>
+        <h3 class="serif text-xl mb-3 leading-snug">Opportunity Architecture</h3>
 
-            <div class="max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 bg-stone-50 p-8 rounded-2xl border border-stone-100 mb-16 text-center shadow-sm">
-                <div>
-                    <p class="text-2xl font-bold text-slate-900 serif">2,800+</p>
-                    <p class="text-[9px] font-bold text-stone-400 uppercase tracking-widest mt-1">Minds Connected</p>
-                </div>
-                <div>
-                    <p class="text-2xl font-bold text-slate-900 serif">10 Areas</p>
-                    <p class="text-[9px] font-bold text-stone-400 uppercase tracking-widest mt-1">Drafting Mapping</p>
-                </div>
-                <div>
-                    <p class="text-2xl font-bold text-slate-900 serif">3 Active</p>
-                    <p class="text-[9px] font-bold text-stone-400 uppercase tracking-widest mt-1">Reform Blueprints</p>
-                </div>
-                <div>
-                    <p class="text-2xl font-bold text-slate-900 serif">Elite</p>
-                    <p class="text-[9px] font-bold text-stone-400 uppercase tracking-widest mt-1">Performance Cohort</p>
-                </div>
-            </div>
+        <p class="text-sm text-stone-500 leading-relaxed mb-6">
+          The design behind the ABUAD LSS Opportunity Office: two desks covering
+          undergraduate and graduate stages, a tracking and dissemination routine,
+          and a handover procedure so the office does not die with its founder.
+        </p>
 
-            <div class="grid lg:grid-cols-3 gap-8 mb-16">
-                
-                <div class="bg-white p-8 rounded-2xl border border-stone-100 shadow-sm flex flex-col justify-between hover:border-amber-600 transition-all">
-                    <div>
-                        <div class="flex justify-between items-start mb-6">
-                            <span class="text-3xl">🏛️</span>
-                            <span class="bg-amber-100 text-amber-800 text-[9px] uppercase font-bold tracking-widest px-3 py-1 rounded-full">Architecture Phase</span>
-                        </div>
-                        <h3 class="serif text-xl font-bold text-slate-900 mb-3">National Registry of Standard Legal Drafting Precedents</h3>
-                        <p class="text-slate-500 text-sm leading-relaxed mb-4">
-                            A standardized repository mapping model spanning 10 distinct practices, harmonizing structural procedural variances between Northern and Southern Nigerian legal frameworks.
-                        </p>
-                        <div class="bg-stone-50 p-4 rounded-xl border border-stone-100 text-[10px] text-stone-600 grid grid-cols-2 gap-x-2 gap-y-1 mb-6">
-                            <div>• Criminal Law</div>
-                            <div>• Tax Law</div>
-                            <div>• Civil Litigation</div>
-                            <div>• Property Law</div>
-                            <div>• Commercial Practice</div>
-                            <div>• Estates & Trusts</div>
-                            <div>• Mergers & Acquisitions</div>
-                            <div>• Energy Law</div>
-                            <div>• Intellectual Property</div>
-                            <div>• ADR Frameworks</div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="pt-4 border-t border-stone-100 flex flex-col gap-1 bg-amber-50/30 p-4 rounded-xl mb-4">
-                            <span class="text-[9px] uppercase font-bold text-amber-800 tracking-wider">Injected Evidence of Execution:</span>
-                            <span class="text-[11px] font-medium text-slate-700">Tangible Artifacts deployed: Codified 10-tier master directory structural map created on open network space to enable multi-committee collaboration.</span>
-                        </div>
-                        <a href="https://drive.google.com/drive/folders/1nNwmnN7svu2yH0JNq_67YUNfpVFpRxT8?usp=sharing" target="_blank" class="block text-center text-[10px] uppercase font-bold tracking-widest bg-stone-900 text-white py-3 rounded-xl hover:bg-amber-600 transition-colors">Inspect Live Asset →</a>
-                    </div>
-                </div>
+        <dl class="ledger border-t hairline pt-5 space-y-4 mb-7 flex-1">
+          <div>
+            <dt>What exists today</dt>
+            <dd>The office is operating, with both desks established and application sequences and portfolio registries in use.</dd>
+          </div>
+          <div>
+            <dt>What it is not yet</dt>
+            <dd>Adopted beyond the Law Students&rsquo; Society. Extension through the Students&rsquo; Representative Council to other ABUAD colleges is still being worked on.</dd>
+          </div>
+        </dl>
 
-                <div class="bg-white p-8 rounded-2xl border border-stone-100 shadow-sm flex flex-col justify-between hover:border-amber-600 transition-all">
-                    <div>
-                        <div class="flex justify-between items-start mb-6">
-                            <span class="text-3xl">📉</span>
-                            <span class="bg-emerald-100 text-emerald-800 text-[9px] uppercase font-bold tracking-widest px-3 py-1 rounded-full">In Progress</span>
-                        </div>
-                        <h3 class="serif text-xl font-bold text-slate-900 mb-3">Institutional Architecture Blueprint</h3>
-                        <p class="text-slate-500 text-sm leading-relaxed mb-4">
-                            An operational optimization framework built to maximize administrative synergy between Law Student Association committees, ministries, chambers, and specialized registries.
-                        </p>
-                    </div>
-                    <div>
-                        <div class="pt-4 border-t border-stone-100 flex flex-col gap-1 bg-emerald-50/30 p-4 rounded-xl mb-4">
-                            <span class="text-[9px] uppercase font-bold text-emerald-800 tracking-wider">Injected Evidence of Execution:</span>
-                            <span class="text-[11px] font-medium text-slate-700">Impact Snapshots: Strategic organizational proposals formatted and finalized to secure independent operational directorates.</span>
-                        </div>
-                        <a href="https://drive.google.com/drive/folders/1VmXocGTtu5RPl6CQ7u4axs7O_bPh2FPW?usp=sharing" target="_blank" class="block text-center text-[10px] uppercase font-bold tracking-widest bg-stone-900 text-white py-3 rounded-xl hover:bg-amber-600 transition-colors">Inspect Live Asset →</a>
-                    </div>
-                </div>
+        <a href="https://drive.google.com/drive/folders/1fVt24p53YkCLfg4gZ-G2duqa07vOvCKv?usp=drive_link"
+           target="_blank" rel="noopener"
+           class="block text-center text-[10px] uppercase font-semibold tracking-[.2em] btn-dark py-3 rounded-xl">
+          Inspect the files
+        </a>
+      </article>
 
-                <div class="bg-white p-8 rounded-2xl border border-stone-100 shadow-sm flex flex-col justify-between hover:border-amber-600 transition-all">
-                    <div>
-                        <div class="flex justify-between items-start mb-6">
-                            <span class="text-3xl">⚖️</span>
-                            <span class="bg-emerald-100 text-emerald-800 text-[9px] uppercase font-bold tracking-widest px-3 py-1 rounded-full">Active Deployment</span>
-                        </div>
-                        <h3 class="serif text-xl font-bold text-slate-900 mb-3">Opportunity Architecture</h3>
-                        <p class="text-slate-500 text-sm leading-relaxed mb-4">
-                            Data-driven navigation protocols designed to help high-performing legal students establish direct corporate firm access and career visibility purely via merit and execution metrics.
-                        </p>
-                    </div>
-                    <div>
-                        <div class="pt-4 border-t border-stone-100 flex flex-col gap-1 bg-emerald-50/30 p-4 rounded-xl mb-4">
-                            <span class="text-[9px] uppercase font-bold text-emerald-800 tracking-wider">Injected Evidence of Execution:</span>
-                            <span class="text-[11px] font-medium text-slate-700">Administrative Frameworks deployed: Deployed multi-regional corporate firm application sequences and specialized portfolio registries.</span>
-                        </div>
-                        <a href="https://drive.google.com/drive/folders/1fVt24p53YkCLfg4gZ-G2duqa07vOvCKv?usp=drive_link" target="_blank" class="block text-center text-[10px] uppercase font-bold tracking-widest bg-stone-900 text-white py-3 rounded-xl hover:bg-amber-600 transition-colors">Inspect Live Asset →</a>
-                    </div>
-                </div>
-            </div>
+    </div>
+  </div>
+</section>
 
-            <div class="max-w-2xl mx-auto bg-stone-900 text-white p-8 rounded-2xl border border-stone-800 shadow-xl">
-                <div class="flex flex-col sm:flex-row justify-between sm:items-center border-b border-stone-800 pb-4 mb-4 gap-2">
-                    <h4 class="serif font-bold text-lg text-amber-500">Current System Build Queue</h4>
-                    <span class="text-[9px] uppercase tracking-widest bg-stone-800 px-3 py-1 rounded-full text-stone-400 font-bold">Status Updated: May 2026</span>
-                </div>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs font-light text-stone-300">
-                    <div class="flex items-center gap-3 bg-stone-950/50 p-3 rounded-xl border border-stone-800">
-                        <span class="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></span>
-                        <span>Legal Drafting Registry (Scaling)</span>
-                    </div>
-                    <div class="flex items-center gap-3 bg-stone-950/50 p-3 rounded-xl border border-stone-800">
-                        <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
-                        <span>Institutional Reform Document</span>
-                    </div>
-                    <div class="flex items-center gap-3 bg-stone-950/50 p-3 rounded-xl border border-stone-800">
-                        <span class="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></span>
-                        <span>The Legal Architect Cohort Launch</span>
-                    </div>
-                    <div class="flex items-center gap-3 bg-stone-950/50 p-3 rounded-xl border border-stone-800">
-                        <span class="w-2 h-2 rounded-full bg-stone-700"></span>
-                        <span>Knowledge Vault Expansion</span>
-                    </div>
-                </div>
-            </div>
 
+<!-- ==========================================================
+     OPEN QUESTIONS
+========================================================== -->
+<section id="questions" class="bg-[#14181F] text-[#EDEEF0]">
+  <div class="max-w-5xl mx-auto px-6 md:px-8 py-20 md:py-28">
+
+    <div class="max-w-2xl mb-14">
+      <p class="eyebrow text-stone-500 mb-5">Open Questions</p>
+      <h2 class="serif text-3xl md:text-5xl mb-6">What I do not have answers to yet.</h2>
+      <p class="text-stone-400 leading-relaxed">
+        These are the questions the reading and the writing keep circling. They are
+        listed here because an honest laboratory shows its unfinished work.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-x-14 gap-y-10">
+
+      <div class="border-t border-stone-800 pt-6">
+        <p class="eyebrow text-stone-600 mb-3">One</p>
+        <h3 class="serif text-xl mb-3">Digital identity and privacy in emerging economies</h3>
+        <p class="text-sm text-stone-400 leading-relaxed">
+          What does meaningful consent mean where identity systems are a
+          precondition for banking, schooling and subsidy, and opting out is not a
+          real option?
+        </p>
+      </div>
+
+      <div class="border-t border-stone-800 pt-6">
+        <p class="eyebrow text-stone-600 mb-3">Two</p>
+        <h3 class="serif text-xl mb-3">Where legal infrastructure actually fails</h3>
+        <p class="text-sm text-stone-400 leading-relaxed">
+          If law is infrastructure, it should be possible to say which part is
+          load-bearing and which part is decorative. I do not yet have a clean
+          test for telling them apart.
+        </p>
+      </div>
+
+      <div class="border-t border-stone-800 pt-6">
+        <p class="eyebrow text-stone-600 mb-3">Three</p>
+        <h3 class="serif text-xl mb-3">African legal-technology ecosystems</h3>
+        <p class="text-sm text-stone-400 leading-relaxed">
+          Why so much legal technology built for African practice solves the
+          drafting problem and not the access problem, and what would change if
+          that were reversed.
+        </p>
+      </div>
+
+      <div class="border-t border-stone-800 pt-6">
+        <p class="eyebrow text-stone-600 mb-3">Four</p>
+        <h3 class="serif text-xl mb-3">Reputation as a form of capital</h3>
+        <p class="text-sm text-stone-400 leading-relaxed">
+          Professional reputation behaves like an asset but is governed almost
+          entirely by norms rather than rules. What happens when the platforms that
+          hold it change their terms?
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ==========================================================
+     WRITING
+========================================================== -->
+<section id="writing" class="bg-white border-b hairline">
+  <div class="max-w-5xl mx-auto px-6 md:px-8 py-20 md:py-24">
+
+    <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+      <div>
+        <p class="eyebrow gold mb-5">Writing</p>
+        <h2 class="serif text-3xl md:text-4xl">Thinking in public.</h2>
+      </div>
+      <p class="text-sm text-stone-500 max-w-sm leading-relaxed">
+        Essays and notes live here. Formal legal research and published case
+        analysis are listed on
+        <a href="https://ajebutterextraordinaire.github.io/Similoluwa-Esther-Ajayi/#research"
+           target="_blank" rel="noopener"
+           class="underline decoration-[var(--gold)] underline-offset-4 hover:text-black">the record</a>.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-x-14">
+      <div class="border-t hairline">
+        <p class="eyebrow text-stone-400 pt-6 pb-2">Essays</p>
+        <div class="py-4 border-b hairline"><p class="serif text-lg">Why building a personal brand is today&rsquo;s CV</p></div>
+        <div class="py-4 border-b hairline"><p class="serif text-lg">How to write like a lawyer, think like a brand</p></div>
+        <div class="py-4 border-b hairline"><p class="serif text-lg">Balancing poise and power: the unspoken curriculum</p></div>
+        <div class="py-4"><p class="serif text-lg">Digital diplomacy: influence with integrity</p></div>
+      </div>
+
+      <div class="border-t hairline mt-10 md:mt-0">
+        <p class="eyebrow text-stone-400 pt-6 pb-2">Ajebutter Papers</p>
+        <div class="py-4 border-b hairline"><p class="serif text-lg">Edition I &mdash; Why grace is still a power strategy</p></div>
+        <div class="py-4 border-b hairline"><p class="serif text-lg">Edition II &mdash; The student&rsquo;s guide to digital relevance</p></div>
+        <div class="py-4"><p class="serif text-lg">Edition III &mdash; Notes on soft leadership</p></div>
+      </div>
+    </div>
+
+    <!-- ADD LINKS: turn each title into
+         <a href="URL" target="_blank" rel="noopener" class="hover:underline">...</a>
+         as the pieces go live. Plain text until then. -->
+  </div>
+</section>
+
+
+<!-- ==========================================================
+     BUILD LOG  &mdash;  replaces the old "queue" box and the gated
+     vault. What is published is free; what is not built says so.
+========================================================== -->
+<section id="log" class="bg-[#F7F6F3]">
+  <div class="max-w-5xl mx-auto px-6 md:px-8 py-20 md:py-24">
+
+    <div class="max-w-2xl mb-12">
+      <p class="eyebrow gold mb-5">Build Log</p>
+      <h2 class="serif text-3xl md:text-4xl mb-6">In progress, and not yet started.</h2>
+      <p class="text-stone-500 leading-relaxed">
+        Anything published here will be free to use. I run an office whose whole
+        premise is that access to opportunity should not depend on who you happen
+        to know; it would be strange to put my own work behind a gate.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-5 mb-14">
+
+      <div class="panel p-6 rounded-xl flex items-start justify-between gap-4">
+        <div>
+          <p class="font-medium text-[15px]">Drafting precedents collection</p>
+          <p class="text-sm text-stone-500 mt-1">Structure built; precedents being gathered.</p>
         </div>
-    </section>
+        <span class="status st-build mt-1">In build</span>
+      </div>
 
-    <section id="vault" class="section-padding bg-stone-50/50">
-        <div class="max-w-6xl mx-auto px-8">
-            <div class="mb-20 text-center">
-                <p class="text-stone-400 text-[10px] uppercase tracking-[0.5em] font-bold mb-4">Wing II</p>
-                <h2 class="serif text-5xl font-bold italic">The Knowledge Vault</h2>
-            </div>
-            
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="wing-card p-8 rounded-2xl flex flex-col justify-between h-80 shadow-sm">
-                    <div>
-                        <span class="text-2xl">📐</span>
-                        <h3 class="serif text-xl font-bold mt-6">Study Framework 1.0</h3>
-                        <p class="text-stone-500 text-sm mt-4">Architectural study systems tailored specifically for structural law retention.</p>
-                    </div>
-                    <a href="#advisory" class="text-[10px] uppercase font-bold tracking-widest text-amber-700">Acquire Asset →</a>
-                </div>
-                <div class="wing-card p-8 rounded-2xl flex flex-col justify-between h-80 shadow-sm">
-                    <div>
-                        <span class="text-2xl">🏛️</span>
-                        <h3 class="serif text-xl font-bold mt-6">The 2026 Vault</h3>
-                        <p class="text-stone-500 text-sm mt-4">High-authority document architecture blueprints and legal practice files.</p>
-                    </div>
-                    <a href="#advisory" class="text-[10px] uppercase font-bold tracking-widest text-amber-700">Explore Archives →</a>
-                </div>
-                <div class="wing-card p-8 rounded-2xl flex flex-col justify-between h-80 shadow-sm">
-                    <div>
-                        <span class="text-2xl">📊</span>
-                        <h3 class="serif text-xl font-bold mt-6">Notion Workspace</h3>
-                        <p class="text-stone-500 text-sm mt-4">Advanced workflow interfaces built to coordinate academic files and multi-team programs.</p>
-                    </div>
-                    <a href="#advisory" class="text-[10px] uppercase font-bold tracking-widest text-amber-700">Get Workspace →</a>
-                </div>
-                <div class="wing-card p-8 rounded-2xl flex flex-col justify-between h-80 shadow-sm bg-stone-900 text-white border-none">
-                    <div>
-                        <span class="text-2xl">🔒</span>
-                        <h3 class="serif text-xl font-bold mt-6">Gated Intelligence</h3>
-                        <p class="text-stone-400 text-sm mt-4">Protected deep-dives covering legal corporate maneuvers and policy analysis.</p>
-                    </div>
-                    <p class="text-[9px] uppercase font-bold tracking-widest text-stone-500">Member Access Only</p>
-                </div>
-            </div>
+      <div class="panel p-6 rounded-xl flex items-start justify-between gap-4">
+        <div>
+          <p class="font-medium text-[15px]">Institutional reform document</p>
+          <p class="text-sm text-stone-500 mt-1">Drafted; under review.</p>
         </div>
-    </section>
+        <span class="status st-build mt-1">In build</span>
+      </div>
 
-    <section id="initiatives" class="section-padding bg-stone-950 text-white">
-        <div class="max-w-5xl mx-auto px-8 text-center">
-            <h2 class="serif text-5xl font-bold mb-6 italic">Institutions outlive posts.</h2>
-            <p class="text-stone-500 max-w-2xl mx-auto mb-20 text-lg">Building long-term structures for legal education and leadership.</p>
-            
-            <div class="bg-stone-900 border border-stone-800 p-16 rounded-[40px] relative overflow-hidden group">
-                <div class="absolute top-0 right-0 p-10 opacity-5 group-hover:opacity-10 transition-opacity">
-                    <svg class="w-64 h-64" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-                </div>
-                <h3 class="serif text-4xl font-bold mb-4 italic">The Initiative 2026</h3>
-                <p class="text-stone-400 uppercase tracking-[0.4em] text-[10px] font-bold mb-8">High-Performance Cohort</p>
-                <p class="text-stone-400 max-w-xl mx-auto leading-relaxed mb-10">
-                    A private, high-authority environment for legal minds to master strategy, systems, and peak performance. Limited seats, infinite leverage.
-                </p>
-                <a href="#advisory" class="inline-block bg-white text-black px-12 py-5 rounded-full font-bold uppercase text-[11px] tracking-widest hover:bg-amber-600 hover:text-white transition-all shadow-lg">
-                    Apply for the Waitlist
-                </a>
-            </div>
+      <div class="panel p-6 rounded-xl flex items-start justify-between gap-4">
+        <div>
+          <p class="font-medium text-[15px]">Study and note-taking framework</p>
+          <p class="text-sm text-stone-500 mt-1">Written for my own use; not yet written up for anyone else.</p>
         </div>
-    </section>
+        <span class="status st-none mt-1">Not published</span>
+      </div>
 
-    <section id="timeline" class="section-padding bg-white border-b border-stone-100">
-        <div class="max-w-3xl mx-auto px-8">
-            <div class="mb-16 text-center">
-                <p class="text-amber-600 text-[10px] uppercase tracking-[0.4em] font-bold mb-4">Progression Model</p>
-                <h2 class="serif text-4xl font-bold italic text-slate-900">Alternative Track Model</h2>
-            </div>
-            <div class="relative border-l border-stone-200 pl-8 space-y-12">
-                <div class="relative">
-                    <div class="absolute -left-[41px] top-1 bg-white border-2 border-amber-600 rounded-full w-5 h-5 flex items-center justify-center">
-                        <div class="bg-amber-600 rounded-full w-2 h-2"></div>
-                    </div>
-                    <span class="text-xs font-bold text-amber-600 bg-amber-50 px-3 py-1 rounded-full uppercase tracking-wider">2024</span>
-                    <h4 class="serif text-xl font-bold text-slate-900 mt-2">Theory Foundations & Asset Inception</h4>
-                    <p class="text-slate-500 text-sm mt-2">Drafted early logic layers for modular study frameworks and multi-layered performance interfaces.</p>
-                </div>
-                <div class="relative">
-                    <div class="absolute -left-[41px] top-1 bg-white border-2 border-amber-600 rounded-full w-5 h-5 flex items-center justify-center">
-                        <div class="bg-amber-600 rounded-full w-2 h-2"></div>
-                    </div>
-                    <span class="text-xs font-bold text-amber-600 bg-amber-50 px-3 py-1 rounded-full uppercase tracking-wider">2025</span>
-                    <h4 class="serif text-xl font-bold text-slate-900 mt-2">Ecosystem Test & High-Velocity Reach</h4>
-                    <p class="text-slate-500 text-sm mt-2">Began open scaling tests across networks, accelerating resource access architectures globally.</p>
-                </div>
-                <div class="relative">
-                    <div class="absolute -left-[41px] top-1 bg-white border-2 border-stone-900 rounded-full w-5 h-5 flex items-center justify-center">
-                        <div class="bg-stone-900 rounded-full w-2 h-2"></div>
-                    </div>
-                    <span class="text-xs font-bold text-white bg-stone-900 px-3 py-1 rounded-full uppercase tracking-wider">2026</span>
-                    <h4 class="serif text-xl font-bold text-slate-900 mt-2">Institutional Overhaul Phase</h4>
-                    <p class="text-slate-500 text-sm mt-2">Upgrading operational frameworks to overhaul institutional structures, drafting registries, and closed specialized cohorts.</p>
-                </div>
-            </div>
+      <div class="panel p-6 rounded-xl flex items-start justify-between gap-4">
+        <div>
+          <p class="font-medium text-[15px]">Shared workspace templates</p>
+          <p class="text-sm text-stone-500 mt-1">Used internally by committees I work with.</p>
         </div>
-    </section>
+        <span class="status st-none mt-1">Not published</span>
+      </div>
 
-    <section id="advisory" class="section-padding bg-white">
-        <div class="max-w-6xl mx-auto px-8">
-            <div class="grid lg:grid-cols-2 gap-24 items-start">
-                <div>
-                    <p class="text-amber-600 text-[10px] font-bold uppercase tracking-[0.4em] mb-4">Selective Access</p>
-                    <h2 class="serif text-6xl font-bold mb-10 italic text-slate-900">The Advisory Room.</h2>
-                    <p class="text-slate-500 text-xl leading-relaxed mb-12 font-light">
-                        Access is intentional. Whether you require a strategic audit of your systems or wish to collaborate on a high-level project, the conversation starts here.
-                    </p>
-                    <div class="space-y-10">
-                        <div>
-                            <p class="text-[10px] font-bold text-stone-400 uppercase tracking-widest mb-3">Direct Correspondence</p>
-                            <a href="mailto:simiajayi08@gmail.com" class="text-2xl serif italic hover:text-amber-600 transition-colors border-b border-stone-100 pb-2">simiajayi08@gmail.com</a>
-                        </div>
-                        <div class="flex gap-16">
-                            <div>
-                                <p class="text-[10px] font-bold text-stone-400 uppercase tracking-widest mb-3">Network</p>
-                                <a href="https://linkedin.com/in/similoluwa-ajayi-323aa8329" target="_blank" class="text-sm font-medium hover:text-amber-600 transition-colors">LinkedIn</a>
-                            </div>
-                            <div>
-                                <p class="text-[10px] font-bold text-stone-400 uppercase tracking-widest mb-3">Archives</p>
-                                <a href="https://pin.it/6UWiejVX5" target="_blank" class="text-sm font-medium hover:text-amber-600 transition-colors">Pinterest</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="bg-white p-12 rounded-[32px] border border-stone-100 shadow-xl">
-                    <form action="https://formsubmit.co/simiajayi08@gmail.com" method="POST" class="space-y-6">
-                        
-                        <input type="text" name="_honey" style="display:none">
-                        
-                        <input type="hidden" name="_subject" value="Architect Intelligence Entry Form Submission">
-                        <input type="hidden" name="_template" value="table">
-                        <input type="hidden" name="_next" value="https://ajebutterextraordinaire.github.io/Similoluwa-Ajayi-The-Legal-Architect-Iniative/"> 
+    </div>
 
-                        <div class="grid grid-cols-2 gap-4">
-                            <div class="space-y-2">
-                                <label class="text-[9px] uppercase font-bold tracking-widest text-stone-400 ml-2">Full Name</label>
-                                <input type="text" name="name" required placeholder="Your Name" class="w-full p-4 bg-stone-50 border border-stone-100 rounded-xl focus:outline-none focus:border-amber-600 transition-all text-sm">
-                            </div>
-                            <div class="space-y-2">
-                                <label class="text-[9px] uppercase font-bold tracking-widest text-stone-400 ml-2">Email</label>
-                                <input type="email" name="email" required placeholder="email@address.com" class="w-full p-4 bg-stone-50 border border-stone-100 rounded-xl focus:outline-none focus:border-amber-600 transition-all text-sm">
-                            </div>
-                        </div>
-                        <div class="space-y-2">
-                            <label class="text-[9px] uppercase font-bold tracking-widest text-stone-400 ml-2">Subject</label>
-                            <select name="inquiry_type" class="w-full p-4 bg-stone-50 border border-stone-100 rounded-xl focus:outline-none focus:border-amber-600 transition-all text-sm text-stone-500">
-                                <option value="The Initiative Cohort">Inquiry: The Initiative</option>
-                                <option value="Advisory Consultancy">Inquiry: Advisory / Consultancy</option>
-                                <option value="Speaking Arrangements">Inquiry: Speaking / Panels</option>
-                                <option value="Other Project Architecture">Other</option>
-                            </select>
-                        </div>
-                        <div class="space-y-2">
-                            <label class="text-[9px] uppercase font-bold tracking-widest text-stone-400 ml-2">Message</label>
-                            <textarea name="message" rows="4" required placeholder="How can we architect the future?" class="w-full p-4 bg-stone-50 border border-stone-100 rounded-xl focus:outline-none focus:border-amber-600 transition-all text-sm"></textarea>
-                        </div>
-                        <input type="submit" class="w-full btn-gold py-5 rounded-xl font-bold uppercase text-[10px] tracking-widest shadow-lg cursor-pointer" value="Submit Request">
-                    </form>
-                </div>
-            </div>
+    <!-- HOW THIS GOT HERE -->
+    <div class="max-w-3xl">
+      <p class="eyebrow text-stone-400 mb-8">How this got here</p>
+
+      <div class="border-l hairline pl-8 space-y-10">
+        <div class="relative">
+          <span class="absolute -left-[37px] top-2 w-3 h-3 rounded-full bg-white border-2 border-[var(--gold)]"></span>
+          <p class="eyebrow gold mb-2">2024</p>
+          <h4 class="serif text-lg mb-1">Systems for myself</h4>
+          <p class="text-sm text-stone-500 leading-relaxed">
+            Built study, note and file structures to handle the volume of law
+            school. They were personal tools, nothing more.
+          </p>
         </div>
-    </section>
 
-    <footer class="py-24 border-t border-stone-100 bg-white text-center">
-        <div class="max-w-7xl mx-auto px-8">
-            <p class="serif italic text-3xl mb-4">Similoluwa Esther Ajayi</p>
-            <p class="text-stone-400 text-[10px] uppercase tracking-[0.6em] mb-16 font-bold">The Legal Architect • Est. 2026</p>
-            
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-[9px] uppercase tracking-widest text-stone-300 font-bold mb-16">
-                <p>Identity: Architected</p>
-                <p>Proof: Visible</p>
-                <p>Access: Intentional</p>
-                <p>Value: Mapped</p>
-            </div>
-            
-            <p class="text-[9px] text-stone-300 uppercase tracking-[0.3em]">© 2026. Architecture in Motion. The Ajebutter Brand™ • All Rights Reserved</p>
+        <div class="relative">
+          <span class="absolute -left-[37px] top-2 w-3 h-3 rounded-full bg-white border-2 border-[var(--gold)]"></span>
+          <p class="eyebrow gold mb-2">2025</p>
+          <h4 class="serif text-lg mb-1">Testing them on other people</h4>
+          <p class="text-sm text-stone-500 leading-relaxed">
+            Shared the approach, mentored junior students, and found out which
+            parts transferred and which only worked because I had made them.
+          </p>
         </div>
-    </footer>
+
+        <div class="relative">
+          <span class="absolute -left-[37px] top-2 w-3 h-3 rounded-full bg-white border-2 border-[var(--ink)]"></span>
+          <p class="eyebrow text-stone-900 mb-2">2026</p>
+          <h4 class="serif text-lg mb-1">Pointing them at institutions</h4>
+          <p class="text-sm text-stone-500 leading-relaxed">
+            The Opportunity Office, the LAWSAN South-West programme structures and
+            the drafting precedents project &mdash; the same instinct applied to
+            bodies rather than to a desk.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ==========================================================
+     CONTACT
+========================================================== -->
+<section id="contact" class="bg-white border-t hairline">
+  <div class="max-w-6xl mx-auto px-6 md:px-8 py-20 md:py-28">
+    <div class="grid lg:grid-cols-2 gap-14 lg:gap-20 items-start">
+
+      <div>
+        <p class="eyebrow gold mb-5">Correspondence</p>
+        <h2 class="serif text-4xl md:text-5xl mb-8">Get in touch.</h2>
+
+        <p class="text-lg text-stone-500 leading-relaxed mb-10 font-light">
+          Collaboration, writing, a project you think I would find interesting, or
+          a disagreement with something on this page &mdash; all welcome.
+        </p>
+
+        <div class="space-y-8">
+          <div>
+            <p class="eyebrow text-stone-400 mb-2">Email</p>
+            <a href="mailto:simiajayi08@gmail.com"
+               class="serif text-xl hover:text-[var(--gold)] transition-colors">simiajayi08@gmail.com</a>
+          </div>
+
+          <div class="flex gap-12">
+            <div>
+              <p class="eyebrow text-stone-400 mb-2">Network</p>
+              <a href="https://www.linkedin.com/in/similoluwa-ajayi-323aa8329" target="_blank" rel="noopener"
+                 class="text-sm font-medium hover:text-[var(--gold)] transition-colors">LinkedIn</a>
+            </div>
+            <div>
+              <p class="eyebrow text-stone-400 mb-2">Record</p>
+              <a href="https://ajebutterextraordinaire.github.io/Similoluwa-Esther-Ajayi/" target="_blank" rel="noopener"
+                 class="text-sm font-medium hover:text-[var(--gold)] transition-colors">Professional record</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel p-8 md:p-10 rounded-2xl">
+        <form action="https://formsubmit.co/simiajayi08@gmail.com" method="POST" class="space-y-5">
+
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+          <input type="hidden" name="_subject" value="Message from the Legal Architect site">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_next" value="https://ajebutterextraordinaire.github.io/Similoluwa-Ajayi-The-Legal-Architect-Initiative/">
+
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div class="space-y-2">
+              <label for="f-name" class="eyebrow text-stone-400 block">Name</label>
+              <input id="f-name" type="text" name="name" required placeholder="Your name"
+                     class="w-full p-3.5 bg-stone-50 border hairline rounded-xl focus:outline-none focus:border-[var(--gold)] transition-all text-sm">
+            </div>
+            <div class="space-y-2">
+              <label for="f-email" class="eyebrow text-stone-400 block">Email</label>
+              <input id="f-email" type="email" name="email" required placeholder="email@address.com"
+                     class="w-full p-3.5 bg-stone-50 border hairline rounded-xl focus:outline-none focus:border-[var(--gold)] transition-all text-sm">
+            </div>
+          </div>
+
+          <div class="space-y-2">
+            <label for="f-type" class="eyebrow text-stone-400 block">Subject</label>
+            <select id="f-type" name="inquiry_type"
+                    class="w-full p-3.5 bg-stone-50 border hairline rounded-xl focus:outline-none focus:border-[var(--gold)] transition-all text-sm text-stone-600">
+              <option value="Collaboration">Collaboration</option>
+              <option value="Writing or speaking">Writing or speaking</option>
+              <option value="A project">A project</option>
+              <option value="Something on this site">Something on this site</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+
+          <div class="space-y-2">
+            <label for="f-msg" class="eyebrow text-stone-400 block">Message</label>
+            <textarea id="f-msg" name="message" rows="5" required placeholder="What is on your mind?"
+                      class="w-full p-3.5 bg-stone-50 border hairline rounded-xl focus:outline-none focus:border-[var(--gold)] transition-all text-sm"></textarea>
+          </div>
+
+          <input type="submit" value="Send"
+                 class="w-full btn-dark py-4 rounded-xl font-semibold uppercase text-[10px] tracking-[.22em] cursor-pointer">
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<footer class="py-16 border-t hairline bg-[#FCFCFB] text-center">
+  <div class="max-w-5xl mx-auto px-6 md:px-8">
+    <p class="serif text-2xl mb-2">Similoluwa Esther Ajayi</p>
+    <p class="eyebrow text-stone-400 mb-12">The Legal Architect</p>
+
+    <p class="serif italic text-base md:text-lg text-stone-500 max-w-xl mx-auto mb-12">
+      Evidence before adjectives. Structure before spectacle.
+      Substance before recognition.
+    </p>
+
+    <p class="text-[9px] uppercase tracking-[.3em] text-stone-400">
+      &copy; 2026 Similoluwa Esther Ajayi
+    </p>
+  </div>
+</footer>
+
+</main>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "The Legal Architect",
+  "url": "https://ajebutterextraordinaire.github.io/Similoluwa-Ajayi-The-Legal-Architect-Initiative/",
+  "author": {
+    "@type": "Person",
+    "name": "Similoluwa Esther Ajayi",
+    "url": "https://ajebutterextraordinaire.github.io/Similoluwa-Esther-Ajayi/",
+    "sameAs": [
+      "https://www.linkedin.com/in/similoluwa-ajayi-323aa8329",
+      "https://ajebutterextraordinaire.github.io/Similoluwa-Esther-Ajayi/"
+    ]
+  }
+}
+</script>
+
+<script>
+  function toggleMenu(){
+    var menu = document.getElementById('mobileMenu');
+    var btn  = document.querySelector('.mobile-button');
+    var open = menu.classList.toggle('open');
+    if (btn) btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  }
+</script>
 
 </body>
 </html>
